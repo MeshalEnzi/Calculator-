@@ -20,11 +20,7 @@ public class Frame extends JFrame  implements ActionListener  {
         
         public Frame (){
 			this.setTitle("calculator ");
-			this.setVisible(true);
-			this.setSize(400, 500);
-			this.setResizable(false);//no one can change the frame size 
-             this.setLayout(new GridLayout(20,20));
- 			this.setLayout(new FlowLayout(FlowLayout.CENTER,10,10));// orgnize the size of boutton 
+			this.setayout(new FlowLayout(FlowLayout.CENTER,10,10));// orgnize the size of boutton 
 
 			b1= new JButton (" +") ; 
 			b2= new JButton (" *") ; 
